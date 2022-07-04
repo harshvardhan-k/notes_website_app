@@ -1,0 +1,87 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1508717272800-9fff97da7e8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    background-size: 100% 100%;
+    background-color: aliceblue;
+   background-repeat: no-repeat;
+}
+#inp{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    padding: 0.5%;
+    border-radius: 0.5%;
+}
+#myNotes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+button{
+    margin-bottom: 2%;
+}
+#dt{
+    text-align: right;
+    margin-bottom: 0.25%;
+}
+#belowhr{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#dt{
+    font-size: 0.6rem;
+    text-align: right;
+    color: gray;
+}
+#pop{
+    margin-left: 90%;
+    margin-top: 0.5%;
+    margin-bottom: 0.05%;
+}
+hr{
+    margin-top: 2.5%;
+}
+.menu{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+#ab{
+    margin-left: 60%;
+    margin-right: 5%;
+}
+#cd{
+    margin-right: 1%;
+}
+#ab:hover{
+    cursor: pointer;
+}
+#cd:hover{
+    cursor: pointer;
+}
+#Appear{
+    margin-bottom: 2%;
+}
+h1{
+    text-align: center;
+}
+#titleee, #textareaaa{
+    font-size: 1.5rem;
+    font-weight:400;
+}
+#inp:hover{
+    background-color: rgb(240,255,255,0.10);
+}
+#addBtn{
+    border: 2px solid black;
+}
+#addBtn:hover{
+    background-color: rgba(0,255,255,0.10);
+}
+.card:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem -0.15rem aqua;
+    /*transform: translateY(-0.10em);*/
+}
+#ab:hover, #cd:hover{
+    transform: translateY(-0.10em);
+}
