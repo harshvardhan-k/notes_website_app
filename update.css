@@ -85,3 +85,6 @@ h1{
 #ab:hover, #cd:hover{
     transform: translateY(-0.10em);
 }
+.card-body{
+    min-height: 40%;
+}
