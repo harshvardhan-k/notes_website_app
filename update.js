@@ -71,8 +71,8 @@ searching.addEventListener("input",function(){
     console.log('input'.inp);
     let available=document.getElementsByClassName("card border-primary mb-3");
     Array.from(available).forEach(function(e){
-        let txt1=e.getElementsByTagName("h5")[0].innerText;
-        let txt2=e.getElementsByTagName("p")[0].innerText;
+        let txt1=e.getElementsByTagName("h5")[0].innerText.toLowerCase();
+        let txt2=e.getElementsByTagName("p")[0].innerText.toLowerCase();
         if(txt1.includes(inpUT) || txt2.includes(inpUT)){
             e.style.display="block";
         }
